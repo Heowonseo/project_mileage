@@ -2,7 +2,6 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8">
-    <title> project_1-1</title>
   </head>
   <body>    
     <header>
