@@ -1,0 +1,256 @@
+/* 전체 적용 스타일 */
+
+body {
+    background-color: #F8EFBA;
+}
+
+
+a {
+    text-decoration-line: none;
+    color:#58B19F;
+
+}
+
+.a {
+    text-align: center;
+    font-size:20px;
+    color: #58B19F;
+}
+
+.h1 {
+    margin-bottom: 70px;
+    text-align: center;
+    width: 1887px;
+}
+
+.list {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 150px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 1697px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+    border: solid 2px #BDC581;
+    border-radius: 15px;
+    background-color: #BDC581;
+}
+
+.list a {
+    padding: 10px;
+}
+
+.name{
+    border: none;
+    border-bottom: 3px solid #58B19F;
+    margin-top: 200px;
+    margin-left:814px;
+    background-color: #F8EFBA;
+    display: block;
+    height: 50px; width: 295px;
+    font-size: 25px;
+    text-align: center;
+    color: #58B19F;
+}
+input::placeholder {
+    color: #58B19F;
+}
+input:focus {
+    outline:none;
+}
+
+
+/* main 적용 스타일 */
+
+#main_logout {
+    text-align: center;
+    height: 25px;
+    margin-left: 925px;
+    margin-top: 60px;
+    border: solid 2px #58B19F;
+    border-radius: 5px;
+    color: #58B19F;
+}
+#main_logout:focus {
+    outline:none;
+}
+
+input::placeholder {
+    color: #58B19F;
+}
+input:focus {
+    outline:none;
+}
+
+.main.sort {
+    display: block;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #58B19F;
+}
+
+#point {
+    height: 25px;
+    margin-top: 62px;
+    margin-left: 35px;
+    border: solid 2px #58B19F;
+    border-radius: 5px;
+    color: #58B19F;
+
+}
+#point:focus {
+    outline:none;
+}
+
+#add {
+    height: 25px;
+    margin-top: 62px;
+    margin-left: 20px;
+    border: solid 2px #58B19F;
+    border-radius: 5px;
+    color: #58B19F;
+}
+#add:focus {
+    outline:none;
+}
+
+#flex {
+    display: inline-flex;
+    width: 300px;
+    margin-left: 814px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #58B19F;
+}
+
+/* check 적용 스타일 */
+
+.pw{
+    border: none;
+    padding: 0px;
+    border-bottom: 3px solid #58B19F;
+    margin-top: 47px;
+    margin-left:814px;
+    background-color: #F8EFBA;
+    display: block;
+    height: 50px; width: 300px;
+    font-size: 25px;
+    text-align: center;
+    color: #58B19F;
+}
+
+h3 {
+    display:block;
+    text-align: center;
+    font-size: 25px;
+    color: #58B19F;
+    margin-top: 100px;
+}
+
+.join.name{
+    border: none;
+    border-bottom: 3px solid #58B19F;
+    margin-top: 42px;
+    margin-left:814px;
+    background-color: #F8EFBA;
+    display: inline-block;
+    height: 50px; width: 295px;
+    font-size: 25px;
+    text-align: center;
+    color: #58B19F;
+}
+
+.join.input {
+    display: inline-flex;
+    text-align: center;
+    width: 365px;
+    margin-top: 63px;
+    margin-left: 814px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #58B19F;
+}
+
+#join_point {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    width: 260px;
+    text-align: center;
+}
+
+.join.button {
+    color: #58B19F;
+    border: 2px solid #58B19F;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.null_button {
+    display: none;
+}
+
+
+/* getInform 적용 스타일 */
+
+.inform.title {
+    display:block;
+    text-align: center;
+    font-size: 25px;
+    color: #58B19F;
+    margin-top: 100px;
+
+}
+
+.inform.table {
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #58B19F;
+    border-radius: 15px;
+    width: 1000px; height: 90px;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+    width: 130px; height: 30px;
+    border: 2px solid #58B19F;
+    background-color: #BDC581;
+}
+
+td {
+    text-align: center;
+    border: 2px solid #58B19F;
+}
+
+#inform_logout {
+    text-align: center;
+    height: 25px;
+    margin-left: 910px;
+    margin-top: 60px;
+    border: solid 2px #58B19F;
+    border-radius: 5px;
+    color: #58B19F;
+}
+#inform_logout:focus {
+    outline:none;
+}
+
+/* success 적용 스타일 */
+
+#last_button {
+    text-align: center;
+    height: 25px;
+    margin-left: 925px;
+    margin-top: 60px;
+    border: solid 2px #58B19F;
+    border-radius: 5px;
+    color: #58B19F;
+}
+#last_button :focus {
+    outline:none;
+}

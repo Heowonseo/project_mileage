@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>join</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>    
+    <header>
+      <a href="/" class="a"><h1 class="h1">마일리지 입력</h1></a>
+  </header>
+  <nav>
+      <ul class="list">
+          <li>
+              <a href="/check">확인 및 수정</a>
+          </li>
+          <li>
+              <a href="/join">회원가입</a>
+          </li>
+          <li><a href="/manage">관리자 전용</a></li>
+      </ul>
+  </nav>
+  <main>
+    <section style="margin-top: 120px;">
+        <h1 class="inform title">Check your mileage</h1>
+        <table class="inform table">
+          <thead>
+            <th>이름</th>
+            <th>출근</th>
+            <th>퇴근</th>
+            <th>야간콜</th>
+            <th>주말콜</th>
+            <th>합계</th>
+          </thead>
+          <tbody>
+            {% for User in users %}
+            <tr>
+              <td>{{User.userId}}</td>
+              <td>{{User.pgtw}}</td>
+              <td>{{User.pgot}}</td>
+              <td>{{User.pnight}}</td>
+              <td>{{User.pend}}</td>
+              <td>{{User.result}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>            
+      <form action="/auth/logout" method="GET">
+        <button type="submit" id="inform_logout" style="cursor: pointer">로그아웃</button>
+    </form>
+      </section>
+</main>

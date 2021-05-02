@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>join</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>    
+    <header>
+      <a href="/" class="a"><h1 class="h1">마일리지 입력</h1></a>
+  </header>
+  <nav>
+      <ul class="list">
+          <li>
+              <a href="/check">확인 및 수정</a>
+          </li>
+          <li>
+              <a href="/join">회원가입</a>
+          </li>
+          <li><a href="/manage">관리자 전용</a></li>
+      </ul>
+  </nav>
+    <main>
+      <section>
+      <form action="/auth/check" method = "POST">
+        <h3>For Manager</h3>
+                <input type="text" id="userId" name="userId"  placeholder="Manager Name" class="join name" autocomplete="off" onfocus="this.placeholder=''" onblur="this.placeholder='Manager Name'">
+                <div class="join input">
+                  <input type="password" size="20" id="join_point" name="password" placeholder="Manager Password" autocomplete="off" onfocus="this.placeholder=''" onblur="this.placeholder='Manager password'"></lable>
+                  <button type = "submit" class="join button" style="cursor: pointer">입력</button>
+                  <button type = "reset" class="join button" style="cursor: pointer">취소</button>
+                </div>
+      </form>
+      </section>
+    </main>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <title>main</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+    <header>
+        <a href="/" class="a"><h1 class="h1">마일리지 입력</h1></a>
+    </header>
+    <nav>
+        <ul class="list">
+            <li>
+                <a href="/check">확인 및 수정</a>
+            </li>
+            <li>
+                <a href="/join">회원가입</a>
+            </li>
+            <li><a href="/manage">관리자 전용</a></li>
+        </ul>
+    </nav>
+    </body>
+    <main>
+        <section>
+            <form id="addMileage" action="/auth/add" method="POST">
+                <input type="text" id="userId" name="userId" placeholder="Type your name" class="name" autocomplete="off" onfocus="this.placeholder=''" onblur="this.placeholder='Type your name'"> 
+                <div id="flex">
+                    <lable for="pointer" class="main sort" style="cursor: pointer">상점유형</lable>
+                    <select id="point" name="point">
+                        <option id="pend" name="pend" value="pend">주말콜(0.5점)</option>
+                        <option id="pgtw" name="pgtw" value="pgtw" selected>출근(0.5점)</option>
+                        <option id="pgot" name="pgot" value="pgot">퇴근(0.5점)</option>
+                        <option id="pnight" name="pnight" value="pnight">야간콜(0.25점)</option>
+                    </select>
+                    <button type="submit" id="add" style="cursor: pointer">입력</button>
+                </div>  
+            </form>
+        </section>
+    </main>
+</body>
+</html>
